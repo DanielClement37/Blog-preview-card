@@ -66,11 +66,10 @@ body {
     margin-top: 1.5rem;
     padding: .3rem .8rem;
     display: inline-block;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 800;
     background-color: var(--primary-yellow);
     border-radius: .3rem;
-    letter-spacing: -.01rem;
 }
 
 .date-published{
@@ -80,6 +79,7 @@ body {
 .blog-title{
 	margin-top: 1rem;
 	font-weight: 800;
+	cursor: pointer;
 }
 
 .blog-description {
