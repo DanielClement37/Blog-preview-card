@@ -5,6 +5,8 @@
 	--neutral-white: hsl(0, 0%, 100%);
 	--neutral-grey: hsl(0, 0%, 50%);
 	--neutral-black: hsl(0, 0%, 7%);
+
+	--hover-transition-ms: 200ms;
 }
 * {
 	margin: 0;
@@ -42,10 +44,12 @@ body {
 
 .card:hover {
 	box-shadow: 15px 15px var(--neutral-black);
+	transition: var(--hover-transition-ms);
 }
 
 .card:hover .blog-title {
 	color: var(--primary-yellow);
+	transition: var(--hover-transition-ms);
 }
 
 
